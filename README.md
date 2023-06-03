@@ -3,7 +3,7 @@
 I am trying to get the  simple code here: https://purescript-halogen.github.io/purescript-halogen/guide/index.html
 to work with purs-nix and having NO success whatsoever.
 
-`file:///.../halogenWorld/output/Effect.Aff/foreign.js:530
+``file:///.../halogenWorld/output/Effect.Aff/foreign.js:530
                 throw util.fromLeft(step);
                 ^
 
@@ -17,5 +17,4 @@ ReferenceError: window is not defined
     at file:///.../halogenWorld/output/Effect.Aff/foreign.js:637:15
     at drain (file:///.../halogenWorld/output/Effect.Aff/foreign.js:118:9)
     at Object.enqueue (file:///.../halogenWorld/output/Effect.Aff/foreign.js:139:11)
-    at Object.run (file:///.../halogenWorld/output/Effect.Aff/foreign.js:636:23)
-`
+    at Object.run (file:///.../halogenWorld/output/Effect.Aff/foreign.js:636:23)``
