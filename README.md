@@ -22,4 +22,7 @@ ReferenceError: window is not defined
     at drain (file:///.../halogenWorld/output/Effect.Aff/foreign.js:118:9)
     at Object.enqueue (file:///.../halogenWorld/output/Effect.Aff/foreign.js:139:11)
     at Object.run (file:///.../halogenWorld/output/Effect.Aff/foreign.js:636:23)
+    3)
+
+Node.js v18.16.0
 ```
