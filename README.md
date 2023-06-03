@@ -5,7 +5,7 @@ to work with purs-nix and having NO success whatsoever.
 
 Here's the current error message that is confusing me.  It seems to indicate that I don't have nodejs working properly but since this is flake managed, everything should be handled in the flake which is copied verbatim from LovelaceAcademy.
 
-``
+```
 file:///.../halogenWorld/output/Effect.Aff/foreign.js:530
                 throw util.fromLeft(step);
                 ^
@@ -21,4 +21,4 @@ ReferenceError: window is not defined
     at drain (file:///.../halogenWorld/output/Effect.Aff/foreign.js:118:9)
     at Object.enqueue (file:///.../halogenWorld/output/Effect.Aff/foreign.js:139:11)
     at Object.run (file:///.../halogenWorld/output/Effect.Aff/foreign.js:636:23)
-``
+```
