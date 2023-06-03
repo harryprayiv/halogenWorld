@@ -4,7 +4,7 @@ I am trying to get the very simple code [here](https://purescript-halogen.github
 It runs fine when I paste it [here](https://try.purescript.org/) but doesn't work when I try to run it with purs-nix like I am in this repo.
 
 
-Here's the current error message that is confusing me.  It seems to indicate that I don't have npm connected/working properly.  Since this project is to be entirely flake managed, everything should be handled in the flake which is copied verbatim from LovelaceAcademy.  I'm stuck at hello world, using purs-nix.....Not an encouraging sign of the purs-nix tooling as it stands today.
+Here's the current error message that is confusing me.  It seems to indicate that I don't have npm connected/working properly.  Since this project is to be entirely flake managed, everything should be handled in the flake which is is based heavily on the flake outputs [here](https://github.com/LovelaceAcademy/nix-templates).  I'm stuck at hello world, using purs-nix.....Not an encouraging sign of the purs-nix tooling as it stands today.
 
 ```
 file:///.../halogenWorld/output/Effect.Aff/foreign.js:530
