@@ -1,8 +1,9 @@
-# halogenWorld
+## halogenWorld
 
-I am trying to get the  simple code here: https://purescript-halogen.github.io/purescript-halogen/guide/index.html
+I am trying to get the veru simple code here: https://purescript-halogen.github.io/purescript-halogen/guide/index.html
 to work with purs-nix and having NO success whatsoever.
 
+Here's the current error message that is confusing me.  It seems to indicate that I don't have nodejs working properly but since this is flake managed, everything should be handled in the flake which is copied verbatim from LovelaceAcademy.
 ``file:///.../halogenWorld/output/Effect.Aff/foreign.js:530
                 throw util.fromLeft(step);
                 ^
